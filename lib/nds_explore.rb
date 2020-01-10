@@ -18,6 +18,6 @@ def print_first_directors_movie_titles
     titles = spilberg[row_index][:title]
     puts titles 
     row_index += 1 
-    
+  end
   
 end
