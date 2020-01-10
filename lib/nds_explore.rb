@@ -15,6 +15,6 @@ def print_first_directors_movie_titles
   row_index = 0 
   spilberg = directors_database [0][:movies]
   while row_index < spilberg.length do
-    titles = spilberg[row_index][]
+    titles = spilberg[row_index][:]
   
 end
