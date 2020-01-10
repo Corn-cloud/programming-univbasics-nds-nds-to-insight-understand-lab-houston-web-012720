@@ -17,7 +17,7 @@ def print_first_directors_movie_titles
   while index < spilberg.length do
     titles = spilberg[row_index][:title]
     puts titles 
-    row_index += 1 
+    index += 1 
   end
   
 end
